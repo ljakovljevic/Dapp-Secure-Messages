@@ -1,0 +1,27 @@
+{
+  "name": "dapp-messages",
+  "version": "1.0.0",
+  "description": "A decentralised application that allows users to exchange encrypted messages in real time using the Ethereum blockchain and cryptographic techniques.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljakovljevic/Dapp-Secure-Messages.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ljakovljevic/Dapp-Secure-Messages/issues"
+  },
+  "homepage": "https://github.com/ljakovljevic/Dapp-Secure-Messages#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@typechain/hardhat": "^9.1.0",
+    "hardhat": "^2.26.3",
+    "typechain": "^8.3.2"
+  }
+}

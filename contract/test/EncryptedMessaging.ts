@@ -335,7 +335,7 @@ describe("EncryptedMessaging", function () {
       recipient, contentCID, keyCID, sha, iv, nonce, 0, ethers.ZeroHash, ethers.ZeroHash
     );
     const rc = await tx.wait();
-    const ev = rc!.logs.find(l => (l as any).fragment?.name === "MessageSent") as any;
+    const ev = rc!.logs.find((l : any) => (l as any).fragment?.name === "MessageSent") as any;
     const id = ev?.args?.id as bigint;
 
     const msg = await messaging.messages(id);
